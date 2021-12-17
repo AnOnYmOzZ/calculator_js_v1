@@ -1,0 +1,37 @@
+
+#calculator_wrapper { /** Selector */
+    margin: 0 auto;  /* vertical horizontal */
+    margin-top: 50px; 
+    width: 60%; 
+    height: auto; /* it is not advisible to give div a height */
+    border: 1px solid lightgrey;
+    padding-bottom: 20px;
+}
+
+/* use more of classes than ids */
+#calculator_wrapper .output_screen {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 85%;
+    height: 50px;
+    border: 1px solid lightgrey;
+}
+
+#calculator_wrapper .btns_container {
+    margin: 0 auto; 
+    margin-top: 20px; 
+    width: 85%; 
+}
+
+#calculator_wrapper .btns_container .btn_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#calculator_wrapper .btns_container .btn_row div{
+    padding: 30px 50px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
